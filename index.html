@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+
+    <title>丁小样同学</title>
+
+    <link rel="shortcut icon" href="//blog.dinghz.com/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="57x57" href="//blog.dinghz.com/images/114_114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="//blog.dinghz.com/images/114_114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="//blog.dinghz.com/images/144_144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="//blog.dinghz.com/images/144_144.png" />
+
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/jquery.fullpage/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="plugins/jquery.fullpage/vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="plugins/jquery.fullpage/vendors/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="plugins/jquery.fullpage/jquery.fullPage.min.js"></script>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?dff6884e308e4c3aa33dee65c3811858";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                anchors: ['aboutme', 'comefrom', 'myblog'],
+                menu: '#menu',
+                scrollingSpeed: 1000,
+
+                css3: true,
+                scrollingSpeed: 700,
+                autoScrolling: true,
+                fitToSection: true,
+                fitToSectionDelay: 1000,
+                scrollBar: false,
+                easing: 'easeInOutCubic',
+                easingcss3: 'ease',
+                loopBottom: false,
+                loopTop: false,
+                loopHorizontal: true,
+                continuousVertical: false,
+                normalScrollElements: '#element1, .element2',
+                scrollOverflow: false,
+                touchSensitivity: 15,
+                normalScrollElementTouchThreshold: 5
+
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="fullpage">
+    <div class="section">
+        <div class="container aboutme">
+            <div class="logo">
+                <img src="http://blog.dinghz.com/images/300_300.jpg" width="144px" height="144px" alt="丁小样同学">
+            </div>
+
+            <p class="lead">丁小样同学 资深码农一枚</p>
+            <p class="lead">
+                2016年计算机专业大学毕业 在广州一直从事IT行业
+            </p>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container comefrom">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="thumbnail">
+                        <img src="images/gjq.png" alt="潮州广济桥">
+                        <div class="caption">
+                            <h3>湘子桥</h3>
+                            <p>湘子桥是我高中三年上学的必经之路。湘子桥即广济桥，在潮州城东门外，横卧在滚滚的韩江之上，东临笔架山，西接东门闹市，南眺凤凰洲，北仰金城山，景色壮丽迷人。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container myblog">
+            <div class="bs-callout bs-callout-info">
+                <h4>
+                    <a href="https://github.com/craneding" target="_blank">
+                        <i class="fa fa-github fa-2x"></i>
+                    </a>
+                </h4>
+                <p>Joined on 12 Mar 2014</p>
+            </div>
+
+            <div class="bs-callout bs-callout-info">
+                <h4>
+                    <a href="http://weibo.com/craneding" target="_blank">
+                        <i class="fa fa-weibo fa-2x"></i>
+                    </a>
+                </h4>
+                <p>2011年3月4日 08:25 第一条微博</p>
+            </div>
+
+            <div class="bs-callout bs-callout-info">
+                <h4>
+                    <a href="http://blog.dinghz.com/" target="_blank">
+                        <i class="fa fa-rss fa-2x"></i>
+                    </a>
+                </h4>
+                <p>丁小样同学博客，是记录博主学习和成长的一个技术博客......</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

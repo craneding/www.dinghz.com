@@ -1,0 +1,57 @@
+.aboutme {
+    text-align: center;
+}
+
+.aboutme .logo {
+    width: 144px;
+    height: 144px;
+    margin: 0 auto 50px;
+}
+
+.aboutme .logo img {
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+
+.aboutme .lead {
+    margin: 0 auto 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.comefrom .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.comefrom .context {
+    text-indent: 25px;
+}
+
+.myblog a, .myblog a:link {
+    text-decoration: none;
+    color: #333;
+}
+
+.myblog .bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.myblog .bs-callout-warning {
+    border-left-color: #aa6708;
+}
+
+.myblog .bs-callout-info {
+    border-left-color: #1b809e;
+}
+
+.myblog .bs-callout-danger {
+    border-left-color: #ce4844;
+}
